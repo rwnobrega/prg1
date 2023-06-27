@@ -2,15 +2,6 @@
 
 Template para a disciplina de Programação I do [curso de Engenharia de Telecomunicações](https://wiki.sj.ifsc.edu.br/index.php/Curso_de_Engenharia_de_Telecomunica%C3%A7%C3%B5es) do Instituto Federal de Santa Catarina, Campus São José.
 
-## Teclas de atalho
-
-| Ação | Tecla |
-| --- | --- |
-| Compilar e executar | `Ctrl-F5` |
-| Compilar sem executar | `Ctrl-Shift-B` |
-| Depurar | `F5` |
-| Indentar automaticamente | `Ctrl-Shift-I` |
-
 ## Comandos do terminal
 
 | Comando | Descrição |
@@ -31,3 +22,12 @@ gcc <arquivo>.c -o <arquivo>
 ```
 
 *Obs*: se a biblioteca `math.h` for usada, adicione o parâmetro `-lm` no final do comando.
+
+## Teclas de atalho
+
+| Ação | Tecla |
+| --- | --- |
+| Compilar e executar | `Ctrl-F5` |
+| Compilar sem executar | `Ctrl-Shift-B` |
+| Depurar | `F5` |
+| Indentar automaticamente | `Ctrl-Shift-I` |
