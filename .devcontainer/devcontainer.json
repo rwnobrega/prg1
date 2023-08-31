@@ -16,6 +16,7 @@
                 "vsicons.dontShowNewVersionMessage": true,
                 "editor.bracketPairColorization.enabled": true,
                 "editor.wordWrap": "on",
+                "editor.inlayHints.enabled": "offUnlessPressed",
                 "C_Cpp.intelliSenseEngine": "disabled"
             }
         }
