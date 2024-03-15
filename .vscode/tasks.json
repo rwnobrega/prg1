@@ -4,6 +4,22 @@
     "version": "2.0.0",
     "tasks": [
         {
+            "label": "Make build directory",
+            "type": "shell",
+            "command": "mkdir",
+            "args": [
+                "-p",
+                "build/"
+            ],
+            "presentation": {
+                "echo": false,
+                "showReuseMessage": false
+            },
+            "options": {
+                "cwd": "${workspaceFolder}"
+            }
+        },
+        {
             "label": "Compile",
             "type": "shell",
             "command": "/usr/bin/gcc",
@@ -30,6 +46,9 @@
                 "echo": false,
                 "showReuseMessage": false
             },
+            "dependsOn": [
+                "Make build directory"
+            ]
         },
         {
             "label": "Compile & Run",
