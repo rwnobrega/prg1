@@ -6,15 +6,10 @@
     "customizations": {
         "vscode": {
             "extensions": [
-                "vscode-icons-team.vscode-icons",
                 "ms-vscode.cpptools-extension-pack",
-                "bierner.markdown-preview-github-styles",
                 "llvm-vs-code-extensions.vscode-clangd"
             ],
             "settings": {
-                "workbench.iconTheme": "vscode-icons",
-                "vsicons.dontShowNewVersionMessage": true,
-                "editor.bracketPairColorization.enabled": true,
                 "editor.wordWrap": "on",
                 "editor.inlayHints.enabled": "offUnlessPressed",
                 "C_Cpp.intelliSenseEngine": "disabled"
