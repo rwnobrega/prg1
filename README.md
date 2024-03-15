@@ -12,6 +12,7 @@ Template para a disciplina de Programação I do [curso de Engenharia de Telecom
 | `mkdir <diretório>` | Cria um diretório |
 | `code <arquivo>` | Abre o arquivo no VS Code |
 | `rm <arquivo>` | Remove o arquivo |
+| `touch <arquivo>` | Cria um arquivo |
 | `clear` | Limpa a tela |
 
 Para compilar e executar um arquivo em C no terminal, use os seguintes comandos:
