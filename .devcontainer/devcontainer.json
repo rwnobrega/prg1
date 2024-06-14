@@ -10,9 +10,13 @@
                 "llvm-vs-code-extensions.vscode-clangd"
             ],
             "settings": {
-                "editor.wordWrap": "on",
                 "editor.inlayHints.enabled": "offUnlessPressed",
-                "C_Cpp.intelliSenseEngine": "disabled"
+                "editor.wordWrap": "on",
+                "files.autoSave": "off",
+                "C_Cpp.intelliSenseEngine": "disabled",
+                "[c]": {
+                    "editor.formatOnSave": true
+                }
             }
         }
     }
