@@ -6,14 +6,13 @@
     "customizations": {
         "vscode": {
             "extensions": [
-                "ms-vscode.cpptools-extension-pack",
-                "llvm-vs-code-extensions.vscode-clangd"
+                "ms-vscode.cpptools-extension-pack"
             ],
             "settings": {
                 "editor.inlayHints.enabled": "offUnlessPressed",
                 "editor.wordWrap": "on",
                 "files.autoSave": "off",
-                "C_Cpp.intelliSenseEngine": "disabled",
+                "C_Cpp.codeAnalysis.clangTidy.enabled": true,
                 "[c]": {
                     "editor.formatOnSave": true
                 }
